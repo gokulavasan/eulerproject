@@ -1,3 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401D95
+eax=00000001 ebx=00000000 ecx=00000000 edx=20048380 esi=61276158 edi=611A1E9F
+ebp=0028AC48 esp=0028AC20 program=C:\Users\Gokul\Documents\GitHub\eulerproject\Problem1\dist\Debug\Cygwin_1-Windows\problem1.exe, pid 772, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
 Stack trace:
 Frame     Function  Args
+0028AC48  00401D95  (61230049, 611A1EB6, 20010100, 00401DD1)
+0028AC68  00401DEF  (00000001, 0028AC90, 20010100, 6127628B)
+0028ACF8  6100763A  (00000000, 0028CD78, 61006C50, 00000000)
 End of stack trace
