@@ -342,6 +342,8 @@ void Prob9()
 
 void Prob10()
 {
+    //Sum of Prime numbers less than 2M
+    //TODO: Look at Sieve of Erasthosnaskjsd for solving this problem more effectively
     uint64_t sum = 0;
     for (int i = 2; i < 2000000; i++)
     {
